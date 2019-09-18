@@ -5,6 +5,7 @@ pretrained weights can be downloaded from https://pjreddie.com/darknet/yolo/
 
 Also contains code for YOLO to do Custom Object Detection, from downloading images to creating labels and training your NN.
 The structure for creating a custom object detection is inspired from https://github.com/markjay4k/YOLO-series with modifications to make the codes more robust.
+If you want to use a prebuilt module for easy labelling, please refer https://github.com/tzutalin/labelImg. Its a GUI program for easy image labelling.  
 
 you will need to install google_images_download to use the get_images module
 
