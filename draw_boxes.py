@@ -3,6 +3,13 @@ import matplotlib.pyplot as plt
 import cv2
 from matplotlib.widgets import RectangleSelector
 from generate_xml import write_xml
+import argparse
+
+parser = argparse.ArgumentParser()
+parser.add_argument('-k', '--keywords', help='delimited list input', type=str, required=True)
+parser.add_argument('-i', '--img_dir', help='delimited list input', type=str, required=True)
+args = parser.parse_args()
+arguments = vars(args)
 
 # global constants
 img = None
@@ -11,10 +18,9 @@ br_list = []
 object_list = []
 
 # constants
-image_folder = 'images'
-savedir = 'annotations'
-obj = 'fidget_spinner'
-
+image_folder = arguments["img_dir"]
+savedir = 'downloads/annotations'
+obj = arguments["keywords"]
 
 def line_select_callback(clk, rls):
     global tl_list
