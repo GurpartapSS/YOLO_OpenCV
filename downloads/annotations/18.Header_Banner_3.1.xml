@@ -1,0 +1,22 @@
+<annotation>
+  <folder>downloads\cars</folder>
+  <filename>18.Header_Banner_3.1.jpg</filename>
+  <segmented>0</segmented>
+  <size>
+    <width>1800</width>
+    <height>760</height>
+    <depth>3</depth>
+  </size>
+  <object>
+    <name>cars</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+      <xmin>237</xmin>
+      <ymin>101</ymin>
+      <xmax>1505</xmax>
+      <ymax>685</ymax>
+    </bndbox>
+  </object>
+</annotation>

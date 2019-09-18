@@ -1,0 +1,34 @@
+<annotation>
+  <folder>downloads\cars</folder>
+  <filename>15.Used-Cars-Sale-gear-patrol-full-lead.jpg</filename>
+  <segmented>0</segmented>
+  <size>
+    <width>1940</width>
+    <height>1300</height>
+    <depth>3</depth>
+  </size>
+  <object>
+    <name>cars</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+      <xmin>1278</xmin>
+      <ymin>529</ymin>
+      <xmax>1820</xmax>
+      <ymax>893</ymax>
+    </bndbox>
+  </object>
+  <object>
+    <name>cars</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+      <xmin>1</xmin>
+      <ymin>138</ymin>
+      <xmax>1082</xmax>
+      <ymax>1122</ymax>
+    </bndbox>
+  </object>
+</annotation>

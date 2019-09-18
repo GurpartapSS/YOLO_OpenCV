@@ -1,0 +1,22 @@
+<annotation>
+  <folder>downloads\cars</folder>
+  <filename>13.CarRoundup-Mclaren.jpg</filename>
+  <segmented>0</segmented>
+  <size>
+    <width>2400</width>
+    <height>1800</height>
+    <depth>3</depth>
+  </size>
+  <object>
+    <name>cars</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+      <xmin>270</xmin>
+      <ymin>451</ymin>
+      <xmax>2165</xmax>
+      <ymax>1257</ymax>
+    </bndbox>
+  </object>
+</annotation>

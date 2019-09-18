@@ -1,0 +1,22 @@
+<annotation>
+  <folder>downloads\cars</folder>
+  <filename>17.911-road-3629a.jpg</filename>
+  <segmented>0</segmented>
+  <size>
+    <width>900</width>
+    <height>596</height>
+    <depth>3</depth>
+  </size>
+  <object>
+    <name>cars</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+      <xmin>66</xmin>
+      <ymin>154</ymin>
+      <xmax>819</xmax>
+      <ymax>490</ymax>
+    </bndbox>
+  </object>
+</annotation>
